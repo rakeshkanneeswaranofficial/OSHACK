@@ -13,7 +13,7 @@ import os
 from langchain.callbacks import get_openai_callback
 from langchain.embeddings.openai import OpenAIEmbeddings
 
-os.environ['OPENAI_API_KEY'] =  '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'
+os.environ['OPENAI_API_KEY'] =  ''
 
 
 def get_pdf_text(pdf_docs):
